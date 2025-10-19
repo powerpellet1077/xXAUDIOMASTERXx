@@ -8,10 +8,18 @@ xxamxx input.mp3 output.mp3
 
 takes an input audio file and fucks up the quality and exports. this supports a wide range of audio types (please refer to pydub's documentation for format support)
 
+### requirements
+ - Pydub
+ - Audioop-lts (depending on the version of python you have)
+ - Loguru
+ - Pyinstaller (for compiling)
+
+
 ### compiling
 ```
 git clone https://github.com/powerpellet1077/xXAUDIOMASTERXx.git
 cd xXAUDIOMASTERXx
+pip install -r requirements.txt
 pyinstaller --noconfirm --onefile --console --name "xxamxx"  "xxamxx.py"
 cd output
 xxamxx
