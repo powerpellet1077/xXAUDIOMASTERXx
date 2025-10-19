@@ -6,7 +6,7 @@ simple audio enshittifier. no further introduction needed
 xxamxx input.mp3 output.mp3
 ```
 
-takes an input audio file and fucks up the quality and exports. this supports a wide range of audio types (please refer to pydub's documentation for format support)
+takes an input audio file and decreases the quality to the best settings to make it sound like dogshit. this supports a wide range of audio types (please refer to pydub's documentation for format support)
 
 ### requirements
  - Pydub
