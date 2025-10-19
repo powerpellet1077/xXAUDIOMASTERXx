@@ -1,0 +1,3 @@
+audiooop-lts
+loguru
+pydub
