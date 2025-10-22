@@ -26,6 +26,7 @@ xxamxx input.mp3 output.mp3 -d
  - Pyinstaller
  - Git
  - Python 3.10 or higher
+ - Ffmpeg (at path)
 
 
 ### compiling
